@@ -16,7 +16,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        gameDifficultyLevel = 2;
+        gameDifficultyLevel =2;
 
         mapControll = new MapControll();
         Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
