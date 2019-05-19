@@ -1,3 +1,4 @@
+import config.Controls;
 import config.Player;
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -8,8 +9,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Jaca Tower Defence");
         primaryStage.setResizable(false);
+        primaryStage.show();
 
         //
         //To wszystko dla ulatwienia zmian i dodania pozniejszych menu.
@@ -25,12 +27,12 @@ public class Main extends Application {
 
         sceneMenager.createScenes(primaryStage, player, sceneMenager);
 
-        sceneMenager.setSceneMenu(primaryStage);
+        sceneMenager.setSceneMenu();
         //
         //
         //
 
-        primaryStage.show();
+
     }
 
     public static void main(String[] args) {

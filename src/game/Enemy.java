@@ -1,6 +1,7 @@
 package game;
 
 public class Enemy {
+    int id;
 
     int x;
     int y;
@@ -12,11 +13,11 @@ public class Enemy {
 
     int healthMax;
     int healthCurrent;
+    int defence;
     int speed;
     int money;
 
-    void enemyGoToNextTile(){
-
+    void enemyGoToNextTile() {
 
 
     }
