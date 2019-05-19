@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JAVA" injector-id="xml">
+      <display-name>GridPane/@onKeyPressed</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("onKeyPressed")).withParent(xmlTag().withLocalName(string().equalTo("GridPane")).withNamespace(string().equalTo("http://javafx.com/javafx/8.0.172-ea")))]]></place>
+    </injection>
+  </component>
+</application>
